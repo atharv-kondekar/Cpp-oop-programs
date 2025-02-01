@@ -31,11 +31,11 @@ void Bill::setData()
 	
 	for(i=0;i<n;i++)
 	{
-		cout<<"\n Enter the Name of the "<<i+1<<"product : ";
+		cout<<"\n Enter the Name of the "<<i+1<<" product : ";
 		getline(cin,name[i]);
-		cout<<"\n Enter the price of the "<<name[i]<<"product : ";
+		cout<<"\n Enter the price of the "<<name[i]<<" product : ";
 		cin>>price[i];
-		cout<<"\n Enter the quantity of the "<<name[i]<<"product : ";
+		cout<<"\n Enter the quantity of the "<<name[i]<<" product : ";
 		cin>>quantity[i];
 		total[i]=quantity[i]*price[i];
 		
